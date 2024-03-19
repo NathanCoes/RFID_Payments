@@ -11,8 +11,9 @@ A new Flutter app to process payments using RFID.
     flutter pub add http
 ```
 
-*More details on*
-![RFID_examples](https://pub.dev/packages/rfid/example)
-![Google_Fonts](https://pub.dev/packages/google_fonts/example)
-![HTTP_Request](https://pub.dev/packages/http/example)
+<h2>More details on </h2>
+
+RFID Information [RFID_examples](https://pub.dev/packages/rfid/example)<br>
+Google Fonts Information [Google_Fonts](https://pub.dev/packages/google_fonts/example)<br>
+HTTP Request Information[HTTP_Request](https://pub.dev/packages/http/example)<br>
 
