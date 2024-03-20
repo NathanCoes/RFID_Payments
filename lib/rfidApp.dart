@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:rfid_payments/screens/bracelete.dart';
 import 'package:rfid_payments/screens/transactions.dart';
 import 'package:rfid_payments/screens/users.dart';
 import 'package:rfid_payments/widgets/layout.dart';
@@ -35,10 +36,13 @@ class _RfidAppState extends State<RfidApp> {
 
       switch (layout) {
         case "users":
-          layoutScreen = LayoutWidget(layoutWidget: const UserScreen(), titleLayout: "Usuarios");
+          layoutScreen = const LayoutWidget(layoutWidget: UserScreen(), titleLayout: "Usuarios");
           break;
         case "transactions":
-          layoutScreen = LayoutWidget(layoutWidget: const TransactionScreen(), titleLayout: "Transacciones");
+          layoutScreen = const LayoutWidget(layoutWidget: TransactionScreen(), titleLayout: "Transacciones");
+          break;
+        case "bracelete":
+          layoutScreen = const LayoutWidget(layoutWidget: RfidBraceleteScreen(), titleLayout: "Brazaletes");
           break;
         default:
       }

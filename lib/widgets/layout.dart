@@ -25,7 +25,8 @@ class _LayoutWidgetState extends State<LayoutWidget> {
       appBar: AppBar(
         title: Text(widget.titleLayout),
       ),
-      body: Container(
+      body: SizedBox(
+        width: double.maxFinite,
         child: widget.layoutWidget,
       ),
     );

@@ -6,7 +6,8 @@ A new Flutter app to process payments using RFID.
 
 **Required packages**
 ```
-    flutter pub add rfid
+    flutter pub add flutter_nfc_kit
+    flutter pub add ndef
     flutter pub add google_fonts
     flutter pub add http
     flutter pub add uuid
@@ -17,7 +18,7 @@ A new Flutter app to process payments using RFID.
 
 <h2>More details on </h2>
 
-[RFID Information](https://pub.dev/packages/rfid/example)<br>
+[Flutter NFC Kit Information](https://pub.dev/packages/flutter_nfc_kit/example)<br>
 [HTTP Request Information](https://pub.dev/packages/http/example)<br>
 [Google Fonts Information](https://pub.dev/packages/google_fonts/example)<br>
 [UUID Information](https://pub.dev/packages/uuid/example)<br>

@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'dart:typed_data';
 import 'package:pointycastle/api.dart' as crypto;
 
-const String METHOD = 'AES/CBC/PKCS7Padding'; // Utilizamos PKCS7Padding para compatibilidad con OpenSSL
 const String KEY = 'XrU<{W~},@7Jb>y';
 const String IV = 'ULD@Js!M9WEu8=G';
 
